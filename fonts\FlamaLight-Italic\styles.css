@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'FlamaLight-Italic';
+  src: url('FlamaLight-Italic.eot?#iefix') format('embedded-opentype'),  url('FlamaLight-Italic.otf')  format('opentype'),
+	     url('FlamaLight-Italic.woff') format('woff'), url('FlamaLight-Italic.ttf')  format('truetype'), url('FlamaLight-Italic.svg#FlamaLight-Italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

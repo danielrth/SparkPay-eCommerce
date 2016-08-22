@@ -1,0 +1,284 @@
+<ac:pagelayout id="HeaderPage">
+  <div class="LayoutTopTop">
+    
+    <ac:widgetarea id="TopHeaderWidgets">
+<ac:widget id="MENUBAR1083" type="MenuBar" linkgroupid="1">
+        <ac:visibilityarea id="dvControl">
+          $$ADMINHELP$$
+          
+          
+          <div id="mobilemenu" class="full-mob-menu hidden animated center">
+            <div class="mobnav">
+              <a id="navbtnmobc" href="javascript:void(0);" class="navbtnmobc">        <i class="fa fa-times"></i>
+              </a>
+              
+              
+            </div>
+            <a href="javascript:void(0);" alt="Dymatize Nutrition"><img src="/Shared/Themes/DymatizeTEST/images/logo-white.png"></a>
+            <ac:layoutarea id="Item">
+                  <ac:visibilityarea id="phDDLink">
+                    
+                    <a href="$$HREF$$" target="$$TARGET$$" data-toggle="">$$TEXT$$</a>
+                    <ac:visibilityarea id="phSubMenu">
+                      <ul class="dropdown-menu">$$SUBMENU$$</ul>
+                    </ac:visibilityarea>
+                    
+                  </ac:visibilityarea>
+                  <ac:visibilityarea id="phNoDDLink">
+                    
+                    <a href="$$HREF$$" target="$$TARGET$$">$$TEXT$$</a>
+                    
+                  </ac:visibilityarea>
+                </ac:layoutarea>
+            
+            
+          </div>
+          
+          
+          
+          <div class="wrapper-header" style="width:80%;margin-left:10%;margin-right:10%;">
+            <a href="//www.dymatize.com"> <h1 class="brand" style="float:left;"></h1></a>
+            <nav id="top-menu" class="top-menu hidden-xs hidden-sm" style="float:right;line-height:90px;">
+              
+              <ac:layoutarea id="Item">
+                  <ac:visibilityarea id="phDDLink">
+                    
+                    <a href="$$HREF$$" target="$$TARGET$$" data-toggle="">$$TEXT$$</a>
+                    <ac:visibilityarea id="phSubMenu">
+                      <ul class="dropdown-menu">$$SUBMENU$$</ul>
+                    </ac:visibilityarea>
+                    
+                  </ac:visibilityarea>
+                  <ac:visibilityarea id="phNoDDLink">
+                    
+                    <a href="$$HREF$$" target="$$TARGET$$">$$TEXT$$</a>
+                    
+                  </ac:visibilityarea>
+                </ac:layoutarea>
+              
+              
+              
+            </nav>
+            <div class="mobnav visible-xs visible-sm">
+              <a id="navbtnmob" href="javascript:void(0);" class="navbtnmob">        <i class="fa fa-bars"></i>
+              </a>
+              
+              
+            </div>
+            
+          </div>
+          
+          
+          
+          
+          
+          
+          
+          
+          <div class="navbar navbar-default navbar-static-top hidden" role="navigation">
+            
+            <div class="navbar-collapse collapse">
+              
+              <a href="#">
+                
+              </a>							              
+              
+              <ul class="nav navbar-nav hidden">               
+                <ac:layoutarea id="Item">
+                  <ac:visibilityarea id="phDDLink">
+                    
+                    <a href="$$HREF$$" target="$$TARGET$$" data-toggle="">$$TEXT$$</a>
+                    <ac:visibilityarea id="phSubMenu">
+                      <ul class="dropdown-menu">$$SUBMENU$$</ul>
+                    </ac:visibilityarea>
+                    
+                  </ac:visibilityarea>
+                  <ac:visibilityarea id="phNoDDLink">
+                    
+                    <a href="$$HREF$$" target="$$TARGET$$">$$TEXT$$</a>
+                    
+                  </ac:visibilityarea>
+                </ac:layoutarea>
+                
+              </ul>
+              <div class="navbar-right hidden">
+                <ul class="nav navbar-nav">
+                  <ac:if setting="Show Search as Dropdown">
+                    <li><a href="#" data-toggle="dropdown">
+                      <i class="icon-search"></i>
+                      <span class="visible-xs">Search</span>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <div class="panel-body no-wrap search-box">
+                            ##SEARCHBOX[autocomplete=true]##
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                  </ac:if>
+                  <li class="no-wrap">
+                    <ac:if setting="Show Shopping Cart as Dropdown">
+                      <a href="#" data-toggle="dropdown">
+                        <div class="in-block"><i class="icon-shopping-cart"></i></div>
+                        <span class="visible-xs">Shopping Cart</span>
+                        ##IF[CartIsEmpty]## ##ELSE##
+                        <span class="badge">##CARTITEMSCOUNT##</span>
+                        ##ENDIF##
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          ##IF[CartIsEmpty]##
+                          <p class="m-20">Your cart is empty!</p>
+                          ##ENDIF##
+                          $$SMALLSHOPPINGCART1082$$
+                        </li>
+                      </ul>
+                      
+                      <ac:else>
+                        <a href="/store/shopcart.aspx" rel="nofollow">
+                          <div class="in-block"><i class="icon-shopping-cart"></i></div>
+                          <span class="visible-xs">Shopping Cart</span>
+                          ##IF[CartIsEmpty]## ##ELSE##
+                          <span class="badge">##CARTITEMSCOUNT##</span>
+                          ##ENDIF##
+                        </a>
+                      </ac:else>
+                    </ac:if>
+                  </li>
+                  <li>
+                    <ac:if setting="Show Customer Login as Dropdown">
+                      <a href="#" data-toggle="dropdown">
+                        <i class="icon-user"></i>
+                        <span class="visible-xs">##IF[LoggedIn]## My Account ##ELSE## Login ##ENDIF##</span>
+                      </a>
+                      <ul class="dropdown-menu">
+                        $$CUSTOMERLOGIN1081$$
+                      </ul>
+                      <ac:else>
+                        <a href="/store/myaccount.aspx">
+                          <i class="icon-user"></i>
+                          <span class="visible-xs">##IF[LoggedIn]## My Account ##ELSE## Login ##ENDIF##</span>
+                        </a>
+                      </ac:else>
+                    </ac:if>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </div>
+          <ac:layoutarea id="SubItem">
+            <ac:visibilityarea id="phDDLink">
+              
+              <li class="dropdown-submenu hidden">
+                <a href="$$HREF$$" target="$$TARGET$$">$$TEXT$$</a>
+                <ac:visibilityarea id="phSubMenu">
+                  <ul class="dropdown-menu">$$SUBMENU$$</ul>
+                </ac:visibilityarea>
+              </li>
+            </ac:visibilityarea>
+            <ac:visibilityarea id="phNoDDLink">
+              <li>
+                <a href="$$HREF$$" target="$$TARGET$$">$$TEXT$$</a>
+              </li>
+            </ac:visibilityarea>
+          </ac:layoutarea>
+        </ac:visibilityarea>
+      </ac:widget>
+<ac:widget id="CUSTOMERLOGIN1081" type="CustomerLogin" enablemergecode="True">
+        <ac:visibilityarea id="LoggedOut">
+          <li>
+            <div class="panel-body no-wrap">
+              $$HEADER$$
+              <ac:visibilityarea id="btnFacebookLogin">
+                $$FACEBOOKLOGINBUTTON$$
+                <div class="pad-10 center">- OR -</div>
+              </ac:visibilityarea>
+              <div class="full-input">
+                <div>
+                  <label>$$USERNAMELABEL$$</label>
+                  <div>$$USERNAMEINPUT$$</div>
+                </div>
+                <div class="m-20 no-m-lr">
+                  <label>$$PASSWORDLABEL$$</label>
+                  <div>$$PASSWORDINPUT$$</div>
+                  <div class="size-small right">
+                    <a href="/store/lostPassword.aspx">Forgot Password?</a>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="right m-t-10">$$LOGINBUTTON$$</div>
+              </div>
+              <div class="right size-small">
+                or <a href="/store/register.aspx">Register an Account</a>
+              </div>
+              $$ERROR$$
+            </div>
+          </li>
+        </ac:visibilityarea>
+        <ac:visibilityarea id="LoggedIn">
+          <li class="center">##GRAVATARIMAGE[email=##CUSTOMEREMAIL##,size=50,default=dd.jpg]##</li>
+          <li><a href="/store/myaccount.aspx">My Account</a></li>
+          <li><a href="/store/profile.aspx">My Profile</a></li>
+          <li><a href="/store/myaccount.aspx#Orders">Order Tracking</a></li>
+          <li><a href="/store/logout.aspx">Logout</a></li>
+        </ac:visibilityarea>
+      </ac:widget>
+<ac:widget id="SMALLSHOPPINGCART1082" type="SmallShoppingCart" enablemergecode="True">
+        <ac:visibilityarea id="dvControl">
+          <div class="panel no-m-b m-t-5 pad-b-10">
+            <div class="center well well-sm no-wrap no-m-b bold m-l-10 m-r-10">
+              <div class="pad-50 no-pad-tb">$$CARTITEMSLABEL$$</div>
+            </div>
+            <div class="media-list">
+              
+              <ac:layoutarea id="ShopCartItem">
+                <div class="SmallCartItem pad-t-15 pad-b-15 pad-l-10 pad-r-10 media">
+                  <div class="pull-left m-r-15">
+                    <img src="##IMAGERESIZER[path=##ITEMPHOTOURL##,bw=50,lr=t]##
+">
+                  </div>
+                  <div class="pull-right m-t-15">
+                    <a class="badge clear-item-link" href="#">&times;</a>
+                  </div>
+                  <div class="media-body">
+                    <div>$$ITEMLINK$$</div>
+                    <div>$$QUANTITYBOX$$ &nbsp;x $$PRICE$$</div>
+                  </div>
+                </div>
+                <hr class="m-l-5 m-r-5 no-m-tb">
+              </ac:layoutarea>
+              <div class="update-qty-link m-5 no-m-t pad-t-5 pad-b-5 pad-10 center">
+                <span class="rel">
+                  <span class="hide update-attention abs" style="right:100%;top:0;">
+                    click &rarr;
+                  </span>
+                  $$UPDATEQTYLINK$$
+                </span>
+                <!--<div>
+$$VIEWCARTLINK$$
+</div>
+<div>
+$$CLEARCARTLINK$$
+</div> -->
+              </div>
+              
+              <div class="well well-sm no-m-b m-l-10 m-r-10">
+                <strong class="block right">$$SUBTOTAL$$</strong>
+              </div>
+              <div class="SmallCartCheckoutButton full-input m-l-10 m-r-10">
+                $$CHECKOUTBUTTON$$
+              </div>
+              $$ERROR$$
+            </div>
+          </div>
+          <div class="pad-10 no-wrap center">
+            <a class="block pad-50 no-pad-tb" href="/store/shopcart.aspx">View Full Shopping Cart</a>
+          </div>
+        </ac:visibilityarea>
+      </ac:widget>
+</ac:widgetarea>
+  </div>
+</ac:pagelayout>

@@ -1,0 +1,517 @@
+/* [less, public/less, main.less] */
+/* line 9, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+body {
+  background-color: #d6112d;
+}
+/* line 11, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-main {
+  background: #182943 url('../images/bg-all.jpg') 0 419px repeat-x !important;
+  height: 569px;
+  /*min-*/
+}
+/* line 16, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-main .dy-main-primary {
+  background: url('//www.dymatize.com/Shared/Themes/Dymatize2015/images/gnc/bg-sm.jpg') center top no-repeat;
+  /*80%   300% -1px*/
+  height: 565px;
+  /*min-*/
+}
+/* line 22, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-logo-gnc {
+  background-color: #d6112d;
+}
+/* line 24, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-logo-gnc img {
+  width: 80%;
+  margin: 50px 0;
+}
+/* line 27, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-logo-dymatize img {
+  margin-top: 5%;
+  margin-right: 16%;
+}
+/* line 29, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-hero {
+  margin-top: 40px;
+  margin-left: 10px;
+  /*36px*/
+}
+/* line 32, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-hero h1 {
+  color: white;
+  font-size: 64px;
+  /*4.8em*/
+  line-height: 58px;
+  font-family: "FlamaMedium";
+}
+/* line 37, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-hero h1 strong {
+  color: #d6112d;
+  font-size: 77px;
+  /*1.2em*/
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-family: "Flama-Bold";
+}
+/* line 38, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-hero h1 small {
+  font-style: italic;
+  font-size: 25px;
+  /*0.34em*/
+  display: block;
+  color: white;
+  font-family: "FlamaMedium-Italic";
+  text-transform: capitalize !important;
+}
+/* line 42, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+button.btn.btn-default {
+  border-radius: 0 !important;
+  color: #d61031;
+  border: none;
+  text-align: left;
+  padding-left: 37px;
+  line-height: .84em;
+}
+/* line 50, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+button.btn.btn-primary {
+  border-radius: 0 !important;
+  color: #d61031;
+  background-color: #182943;
+  border: none;
+  text-align: left;
+  padding-left: 14px;
+  line-height: .9em;
+}
+/* line 60, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-footer {
+  color: white;
+  background-color: #d6112d;
+}
+/* line 66, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-footer .dy-first div.dy-col-0 {
+  padding-left: 30px;
+}
+/* line 68, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-footer .dy-first div.dy-col-0 h2 {
+  font-family: "FlamaMedium";
+}
+/* line 69, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-footer .dy-first div.dy-col-0 p {
+  width: 95%;
+  margin: 15px 0;
+  font-family: "FlamaMedium-Italic";
+  font-size: 13px;
+}
+/* line 70, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-footer .dy-first div.dy-col-0 em {
+  color: #182943;
+  font-family: "FlamaMedium-Italic";
+  font-size: 11px;
+}
+/* line 73, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-footer .dy-first div.dy-col-1 {
+  padding-top: 20px;
+}
+/* line 75, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-footer .dy-first div.dy-col-1 button.btn.btn-default {
+  width: 154px;
+  /*40%*/
+  height: 154px;
+  padding-top: 20px;
+  font-size: 33px;
+  /*2.8em*/
+  margin-left: 7%;
+  /*9%*/
+  font-family: "Flama-Bold";
+}
+/* line 83, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-footer .dy-first div.dy-col-1 button.btn.btn-primary {
+  width: 154px;
+  /*40%*/
+  height: 154px;
+  padding-top: 20px;
+  font-size: 28px;
+  /*1.9em*/
+  margin-right: 7%;
+  /*9%*/
+  font-family: "Flama-Bold";
+}
+/* line 90, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-footer .dy-first div.dy-col-1 button.btn.btn-primary small {
+  display: block;
+  color: white;
+  font-size: 15px;
+  /*.5em*/
+  font-weight: normal !important;
+  font-family: "Flama";
+}
+/* line 94, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-footer .dy-first div.dy-col-2 {
+  padding-left: 40px;
+  padding-top: 10px;
+}
+/* line 97, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-footer .dy-first div.dy-col-2 h3 {
+  font-size: 13px;
+  /*0.98em*/
+  width: 150px;
+  font-family: "Flama-Bold";
+}
+/* line 101, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-footer .dy-first div.dy-col-2 h3 strong {
+  display: block;
+  font-size: 32px;
+  /*3em*/
+  margin-bottom: 8px;
+}
+/* line 103, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-footer .dy-first div.dy-col-2 em {
+  display: block;
+  line-height: 12px !important;
+  font-size: 14px;
+  /*0.82em*/
+  width: 60%;
+  margin-top: 33px;
+  font-family: "FlamaLight-Italic";
+}
+/* line 117, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-footer .dy-second .dy-col-0 span {
+  font-family: "FlamaMedium";
+  font-style: italic;
+  font-size: 1em;
+  padding-right: 5%;
+  display: block;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+/* line 120, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-footer .dy-second .dy-col-1 button.btn.btn-default {
+  width: 100%;
+  height: 120px;
+  padding-top: 10px;
+  font-size: 1.8em;
+  font-family: "Flama-Bold";
+}
+/* line 129, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-footer .dy-second .dy-col-2 button.btn.btn-primary {
+  width: 100%;
+  height: 120px;
+  padding-top: 10px;
+  font-size: 1.1em;
+  font-family: "Flama-Bold";
+}
+/* line 135, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-footer .dy-second .dy-col-2 button.btn.btn-primary small {
+  display: block;
+  color: white;
+  font-size: .5em;
+  font-weight: normal !important;
+  font-family: "Flama";
+}
+/* line 140, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-footer .dy-second .dy-col-3 h3 {
+  font-size: 0.8em;
+  font-family: "Flama-Bold";
+}
+/* line 143, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-footer .dy-second .dy-col-3 h3 strong {
+  display: block;
+  font-size: 2.8em;
+  margin: 2px 0 20px 0;
+}
+/* line 152, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-footer .dy-second .dy-col-4 em {
+  margin-top: 20px;
+  display: block;
+  line-height: 10px;
+  color: #182943;
+  font-size: 0.64em;
+  font-family: "FlamaMedium";
+}
+/* line 159, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+.dy-footer .dy-second .dy-col-4 em small {
+  color: white;
+  font-size: 1.3em;
+  font-family: "FlamaLight-Italic";
+}
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+@media (max-width: 767px) {
+  /* line 173, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  body {
+    background-image: url('//www.dymatize.com/Shared/Themes/Dymatize2015/images/gnc/bg-xs.jpg') !important;
+    background-position: 31% 0;
+    background-repeat: no-repeat;
+  }
+  /* line 179, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-main {
+    padding: 0!important;
+    margin: 0!important;
+  }
+  /* line 181, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-main,
+  .dy-main-primary {
+    background: none !important;
+    height: 480px !important;
+  }
+  /* line 186, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-logo-gnc img {
+    width: 96%;
+    margin: 30px 0;
+  }
+  /* line 187, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-logo-dymatize img {
+    margin-top: 10%;
+    margin-right: 0;
+  }
+  /* line 189, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-hero {
+    margin-top: 0px;
+    margin-left: 0;
+  }
+  /* line 190, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-hero h1 {
+    font-size: 39px;
+    /*2.4em*/
+    line-height: 34px;
+  }
+  /* line 193, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-hero h1 strong {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 45px;
+    /*1em*/
+  }
+  /* line 195, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-hero h1 small {
+    font-size: 15px;
+  }
+  /* line 196, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-second .dy-col-0 span {
+    font-size: 14px;
+  }
+  /* line 198, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-second .dy-col-2 button.btn.btn-primary,
+  .dy-footer .dy-second .dy-col-1 button.btn.btn-default {
+    width: 138px;
+    height: 138px;
+  }
+  /* line 204, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-second .dy-col-2 button.btn.btn-primary {
+    font-size: 23px;
+    padding-top: 13px;
+  }
+  /* line 205, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-second .dy-col-1 button.btn.btn-default {
+    font-size: 29px;
+    padding-left: 30px;
+  }
+  /* line 207, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-second .dy-col-2 button.btn.btn-primary small {
+    font-size: 13px;
+  }
+  /* line 209, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-second .dy-col-3 h3 {
+    font-size: 12px;
+  }
+  /* line 210, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-second .dy-col-3 h3 strong {
+    font-size: 30px;
+    margin: 0px 0 25px 0;
+  }
+  /* line 211, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-second .dy-col-4 em {
+    font-size: 11px;
+    line-height: 14px;
+    margin-top: 15px;
+  }
+  /* line 212, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-second .dy-col-4 em small {
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0px;
+  }
+  /* line 214, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-second .dy-col-4 em {
+    letter-spacing: 0px;
+  }
+  /* line 215, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-second .dy-col-4 em span {
+    letter-spacing: -1px;
+  }
+}
+@media (max-width: 767px) and (orientation: landscape) {
+  /* line 221, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-main,
+  .dy-main-primary {
+    height: 310px !important;
+  }
+  /* line 222, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  body {
+    background-image: url('//www.dymatize.com/Shared/Themes/Dymatize2015/images/gnc/bg-sm.jpg') !important;
+    background-size: 110%;
+    background-position: 0px 0px !important;
+  }
+  /* line 223, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-hero {
+    margin-top: 0px;
+  }
+  /* line 224, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-hero h1 strong {
+    font-size: 38px;
+  }
+  /* line 225, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-hero h1 {
+    font-size: 32px;
+    line-height: 28px;
+  }
+}
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 236, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-hero h1 {
+    font-size: 52px;
+    line-height: 45px;
+  }
+  /* line 237, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-hero h1 strong {
+    font-size: 60px;
+  }
+  /* line 238, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-hero h1 small {
+    font-size: 20px;
+  }
+  /* line 240, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-main {
+    padding: 0 !important;
+    margin: 0 !important;
+    min-height: 510px !important;
+  }
+  /* line 241, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-main-primary {
+    background-size: 124% !important;
+    background-position: 48% 100% !important;
+    height: 520px !important;
+  }
+  /* line 243, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-first div.dy-col-0 h2 {
+    font-size: 18px;
+  }
+  /* line 244, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-first div.dy-col-0 p {
+    font-size: 12px;
+  }
+  /* line 246, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-first div.dy-col-0 em {
+    width: 71%;
+    display: block;
+    font-size: 13px;
+  }
+  /* line 248, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-first div.dy-col-1 button.btn.btn-default {
+    font-size: 30px;
+    width: 137px;
+    height: 137px;
+    padding-left: 26px;
+    padding-top: 15px;
+    margin-left: 0;
+  }
+  /* line 249, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-first div.dy-col-1 button.btn.btn-primary {
+    font-size: 23px;
+    width: 137px;
+    height: 137px;
+    margin-right: 0;
+  }
+  /* line 251, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-first div.dy-col-1 button.btn.btn-primary small {
+    font-size: 13px;
+  }
+  /* line 252, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-first div.dy-col-2 {
+    padding-left: 10px;
+    padding-top: 0;
+  }
+  /* line 254, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-first div.dy-col-2 h3 {
+    font-size: 12px;
+  }
+  /* line 255, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-first div.dy-col-2 h3 strong {
+    font-size: 29px;
+  }
+  /* line 257, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-first div.dy-col-2 em {
+    font-size: 12px;
+    width: 77%;
+  }
+  /* line 259, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-main {
+    height: 520px;
+  }
+}
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 269, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-hero {
+    margin-left: -10px;
+    margin-top: 30px;
+  }
+  /*	.dy-main-primary{background-position:150px 0 !important;}*/
+  /* line 271, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-hero h1 {
+    font-size: 64px;
+    /*4.2em*/
+    line-height: 56px;
+  }
+  /* line 272, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-hero h1 strong {
+    font-size: 72px;
+    /*1em*/
+  }
+  /* line 273, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-first div.dy-col-0 h2 {
+    font-size: 20px;
+    /*1.84em*/
+  }
+  /* line 274, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-first div.dy-col-1 button.btn.btn-default {
+    font-size: 33px;
+    /*2.2em*/
+    height: 154px;
+    padding-left: 32px;
+  }
+  /* line 275, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-first div.dy-col-1 button.btn.btn-primary {
+    font-size: 24px;
+    /*1.6em*/
+    height: 154px;
+  }
+  /* line 276, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  .dy-footer .dy-first div.dy-col-2 em {
+    width: 90%;
+  }
+}
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+@media (min-width: 1200px) {
+  /* line 285, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  button.btn.btn-default {
+    margin-left: 6% !important;
+  }
+  /* line 288, /Users/macbookpro/Documents/SERVER/DY/Web/public/less/main.less */
+  button.btn.btn-primary {
+    margin-right: 6% !important;
+  }
+}

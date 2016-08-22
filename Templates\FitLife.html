@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+    <!--[if lt IE 9]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<![endif]-->
+    $$HEADTAGS$$
+    <ac:TemplateOverrideArea id="HeadTagsAddonArea"></ac:TemplateOverrideArea>
+  </head>
+<body class="OneColumn ##PAGEBODYCLASSES##" itemtype="http://schema.org/WebPage" itemscope="">
+    <!-- Facebook -->
+    <!--<div id="fb-root"></div>-->
+    <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <!--end Facebook-->
+
+    <div class="main products" style="padding-top:90px">
+      <div class="Layout">
+
+        <header id="ha-header" class="ha-header ha-header-small absolutei">
+          <div class="ha-header-perspective">
+            <div class="">
+              $$HEADER$$
+            </div>
+          </div>
+        </header>
+
+        <ac:templateoverridearea id="HeaderAddonArea"></ac:templateoverridearea>
+
+        <ac:widgetarea id="Top"></ac:widgetarea>
+        <ac:widgetarea id="Middle"><ac:widget id="BLOGROLL1265" type="BlogRoll" numbertodisplay="2" resizepostteaserimage="False" blogid="1">
+          <ac:visibilityarea id="dvControl">
+            <!--<div class="sharebar">
+
+<div class="right blogFb">
+<div class="fb-like" data-href="" data-layout="standard" data-action="like" data-show-faces="false" data-share="true">
+</div>
+</div>
+<div class="logo-blog pad-30 no-pad-tb">
+<a href="##BLOGURL##"><img src="/Shared/Themes/Dymatize2015/images/dyma-fitlife-logo.png" alt=""></a>
+</div>
+
+</div>-->
+            <section id="fitlife" class="screen hidden-xs hidden-sm" style="overflow:hidden;">
+              <a href="/fitlife">
+                <img width="100%" src="/Shared/Themes/Dymatize2015/images/fitlife-main2.jpg">
+              </a>
+            </section>
+            <div class="feat-athletes-title">
+              <h3>FIT LIFE <small>WORKOUTS, NUTRITION, RECIPES</small></h3>
+            </div>
+
+            <div style="clear:both;"></div>
+            <div class="feat-athletes-row">
+              <ac:layoutarea id="BlogPostLayout">
+                $$GROUP$$
+              </ac:layoutarea>
+              <ac:layoutarea id="BlogPostGroup">
+                <article class="BlogPost">
+                  $$POST$$
+                </article>
+              </ac:layoutarea>
+              <ac:layoutarea id="BlogPost">
+                <div class="feat-one col-lg-6 col-md-6">
+                  <span class="badgee">FEATURED ARTICLE</span>
+                  <a href="##BLOGPOSTURL##" class="feat-athletes-img-link">
+                    <div class="BlogPostImage feat-img">$$TEASERIMAGE$$</div>
+                  </a>
+                  <div class="feat-subtitle">
+                    <a href="##BLOGPOSTURL##" class="feat-athletes-img-link">
+                      <span class="feat-name">$$TEASERDESCRIPTION$$</span>
+                    </a>
+                    <a href="##BLOGPOSTURL##" class="btn-video-blue"></a>
+                  </div>
+                </div>
+
+
+
+              </ac:layoutarea>
+            </div>
+          </ac:visibilityarea>
+          </ac:widget>
+<ac:widget id="BLOGROLL1266" type="BlogRoll" numbertodisplay="9" staticcategories="Fit Life, Workout, Recipes" resizepostteaserimage="False" blogid="1">
+            <ac:visibilityarea id="dvControl">
+
+              <div class="feat-athletes-row">
+                <ac:layoutarea id="BlogPostLayout">
+                  $$GROUP$$
+                </ac:layoutarea>
+                <ac:layoutarea id="BlogPostGroup">
+                  <article class="BlogPost">
+                    $$POST$$
+                  </article>
+                </ac:layoutarea>
+                <ac:layoutarea id="BlogPost">
+                  <div class="feat-one col-lg-4 col-md-6 col-sm-12">
+                    <a href="##BLOGPOSTURL##" class="feat-athletes-img-link">
+                      <div class="feat-img">
+                        $$TEASERIMAGE$$
+                      </div>
+                    </a>
+
+                    <div class="feat-subtitle fitLifeTitle">
+                      <a href="##BLOGPOSTURL##" class="feat-athletes-img-link">
+                        <span class="feat-name">$$TEASERTITLE$$</span>
+                      </a>
+                      <a href="##BLOGPOSTURL##" class="btn-read-blue"></a>
+                    </div>
+
+
+
+                  </div>
+                </ac:layoutarea>
+              </div>
+            </ac:visibilityarea>
+          </ac:widget>
+</ac:widgetarea>
+        <section class="LayoutMiddle">
+          <section class="LayoutContent">
+            <div class="LayoutContentInner">
+              $$PAGELAYOUT$$
+
+            </div>
+
+          </section>
+        </section>
+      </div>
+    </div>
+
+    <footer class="LayoutBottom">
+
+
+      $$FOOTER$$
+
+    </footer>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55a59160cb63555d" async="async"></script>
+  </body>
+</html>

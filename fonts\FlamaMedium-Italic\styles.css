@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'FlamaMedium-Italic';
+  src: url('FlamaMedium-Italic.eot?#iefix') format('embedded-opentype'),  url('FlamaMedium-Italic.otf')  format('opentype'),
+	     url('FlamaMedium-Italic.woff') format('woff'), url('FlamaMedium-Italic.ttf')  format('truetype'), url('FlamaMedium-Italic.svg#FlamaMedium-Italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

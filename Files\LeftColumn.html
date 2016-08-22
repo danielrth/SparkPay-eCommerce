@@ -1,0 +1,200 @@
+<ac:templateoverridearea id="LeftColumn">
+  <ac:widgetarea id="CategoryLeftTop"></ac:widgetarea>
+  $$LEFTCOLUMN$$
+  <ac:widgetarea id="CategoryLeftBottom"></ac:widgetarea>
+</ac:templateoverridearea>
+<ac:templateoverridearea id="RightColumn">
+  <ac:widgetarea id="CategoryRightTop"></ac:widgetarea>
+  $$RIGHTCOLUMN$$
+  <ac:widgetarea id="CategoryRightBottom"></ac:widgetarea>
+</ac:templateoverridearea>
+<ac:pagelayout id="CategoryPage" showmanufacturer="False" resizeproductthumb="True" productpicwidth="" productsperrow="4" sizeproportionally="True" layoutstyle="Horizontal" defaultsort="SalesRank" showswatchesforvariants="False" productpicheight="250" showaddtocartbutton="False" displaysortbox="True" pagesize="12">
+  
+  
+  
+  <div>$$CATEGORYIMAGE$$</div>
+  
+  <ac:widgetarea id="Top"><ac:widget id="HTML1488" type="HTML"><div class="section2">
+        <div class="lt" style="height: 105px;">
+             <a href="/shop" class="link"><span>all products</span></a> </div>
+        <div class="rt" style="height: 105px;">
+          <ul>
+            <li>
+              <div class="liin">
+                <h5><a href="/proteins">protein</a></h5>
+                <div class="img"><strong></strong></div>
+              </div>
+            </li>
+            <li>
+              <div class="liin">
+                <h5><a href="/gainers">gainers</a></h5>
+                <div class="img"><strong></strong></div>
+              </div>
+            </li>
+            <li>
+              <div class="liin">
+                <h5><a href="/onthego">on-the-go</a></h5>
+                <div class="img"><strong></strong></div>
+              </div>
+            </li>
+            <li>
+              <div class="liin">
+                <h5><a href="/workoutsupport">performance</a></h5>
+                <div class="img"><strong></strong></div>
+              </div>
+            </li>
+            <li>
+              <div class="liin">
+                <h5><a href="/daily-essentials">daily support</a></h5>
+                <div class="img"><strong></strong></div>
+              </div>
+            </li>
+            <li>
+              <div class="liin">
+                <h5><a href="/gear">gear</a></h5>
+                <div class="img"><strong></strong></div>
+              </div>
+            </li>
+          </ul>
+          <span class="clear"></span> </div>
+        <span class="clear"> </span> </div></ac:widget>
+</ac:widgetarea>
+  <div class="">$$CATEGORYHEADER$$</div>
+  $$TOPCATEGORYSPECIFICWIDGETAREA$$
+  $$TOPATTRIBUTESPECIFICWIDGETAREA$$
+  
+  <div>$$EXTERNALCONTENTAREA$$</div>
+  <div class="content-wrapper">
+    <div class="page-header">
+      <h1 class="CategoryCategoryName hidden">$$CATEGORYNAME$$</h1>
+    </div>
+    <br>
+    <div style="clear:both"></div>
+    <ac:visibilityarea id="TopNavigationArea">
+      <div class="clearfix pad-20 no-pad-lr hidden-xs hidden-sm">
+        <div class="in-block v-mid pad-r-20 pad-t-5 trade-font-up">$$PRODUCTCOUNTTOP$$</div>
+        <div class="in-block v-mid pad-r-20 pad-t-10 right">$$SORTBYDROPDOWN$$</div>
+        <div class="in-block v-mid pad-r-20 pad-t-10 right">$$SHOWBYPAGESIZE$$</div>    
+        
+        
+      </div>    
+    </ac:visibilityarea>
+    
+    <ac:layoutarea id="ProductListLayout">
+      <div class="product-list">$$GROUP$$</div>
+    </ac:layoutarea>
+    <ac:layoutarea id="ProductListGroup">
+      <div class="rows">$$ITEM$$</div>
+    </ac:layoutarea>
+    <ac:layoutarea id="ProductList">
+      <div class="col-lg-3 col-md-6 col-sm-12 m-b-only category-product grid-view pad-b-50">
+        <div class="boxed">
+          <a href="##ITEMURL##" class="thumbnail no-overflow rel">
+            
+            $$THUMBNAIL$$
+            <ac:visibilityarea id="Featured">
+              <div class="abs product-flag left top featured"><span>Featured!</span></div>
+            </ac:visibilityarea>
+            <ac:visibilityarea id="Spotlight">
+              <div class="abs product-flag left bottom spotlight"><span>Spotlight!</span></div>
+            </ac:visibilityarea>
+            <ac:visibilityarea id="Flag1">
+              <div class="abs product-flag right top flag1"><span>New!</span></div>
+            </ac:visibilityarea>
+            <ac:visibilityarea id="Flag2">
+              <div class="abs product-flag right bottom flag2"><span>Hot!</span></div>
+            </ac:visibilityarea>
+            <ac:visibilityarea id="Flag3">
+              <div class="abs product-flag right bottom flag3"><span>Sale!</span></div>
+            </ac:visibilityarea>
+            
+          </a>
+          <div class="caption center lh-15 trade-font-up">
+            <div class="f-right list-view-only">
+              
+              
+              
+            </div>
+            <div class="no-m-b"><a class="h5 color-inherit proxima-font-b" href="##ITEMURL##">##PRODUCTNAME##</a></div>
+            <div>
+              <ac:visibilityarea id="ltrRetailPrice">
+                <div class="CategoryProductRetailArea hidden">
+                  <div class="text-muted list-view-only size-small"><del>$$RETAILPRICE$$</del></div>
+                </div>
+              </ac:visibilityarea>
+              
+              <ac:visibilityarea id="ltrWasPrice">
+                <div class="CategoryWasPriceArea in-block hidden">
+                  <div class="text-muted list-view-only size-small"><del>$$WASPRICE$$</del></div>
+                </div>
+              </ac:visibilityarea>
+              <ac:visibilityarea id="ltrPrice">
+                <div class="text-muted in-block proxima-font-blue price-label-b">$$PRICE$$</div>
+                <p>$$CATEGORYTRAIL$$</p>
+              </ac:visibilityarea>
+            </div>
+            
+            <div class="list-view-only">
+              <ac:visibilityarea id="lblAvailability">
+                <div class="CategoryProductAvailability text-muted size-small hidden">
+                  $$AVAILABILITY$$
+                </div>
+              </ac:visibilityarea>
+              
+              
+              <ac:visibilityarea id="MapPricingLink">
+                <div class="CategoryMapPricingArea">
+                  $$MAPPRICINGLINK$$
+                </div>
+              </ac:visibilityarea>
+              
+              
+              <ac:visibilityarea id="hlMfgLink">
+                <span class="CategoryProductMfgName">$$MANUFACTURERLINK$$</span>
+              </ac:visibilityarea>
+              
+              <ac:visibilityarea id="lblItemNr">
+                <div class="hidden">
+                  $$ITEMNUMBER$$
+                </div>
+              </ac:visibilityarea>
+              
+              <ac:visibilityarea id="rpDiscountList">
+                $$DISCOUNTLIST$$
+              </ac:visibilityarea>
+              
+            </div>
+            <ac:visibilityarea id="ProductRatingArea">
+              
+              
+            </ac:visibilityarea>
+          </div>  
+        </div>
+      </div>
+      
+    </ac:layoutarea>
+    <script>
+      $(function(){
+        $(".CategoryProductQuantityTextbox").qtySpinner()
+      });
+    </script>
+    <ac:visibilityarea id="BottomNavigationArea">
+      <div class="clearfix pad-20 no-pad-lr">
+        <ac:layoutarea id="ProductListPaging">
+          <div class="center">
+            <ul class="pagination">
+              <li>$$PREVIOUS$$</li>
+              $$PAGES$$
+              <li>$$NEXT$$</li>
+            </ul>
+          </div>
+        </ac:layoutarea>   
+      </div>  
+    </ac:visibilityarea>
+    
+    <div>$$CATEGORYFOOTER$$</div>
+    $$BOTTOMATTRIBUTESPECIFICWIDGETAREA$$
+    $$BOTTOMCATEGORYSPECIFICWIDGETAREA$$
+    <ac:widgetarea id="Bottom"></ac:widgetarea>
+  </div>
+</ac:pagelayout>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+    <!--[if lt IE 9]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<![endif]-->
+    <!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<![endif]-->
+    <script>
+      $( document ).ready(function() {
+        var get_data = window.location.href.split('?')[1];
+        var search = '';
+        if (get_data != '' && get_data != null){
+          get_data = get_data.split('&');
+          get_data.forEach(function(info){
+            var info_data = info.split('=');
+            if (info_data[0] == 'zip'){
+              search = info_data[1];
+            }
+          });
+        }
+        var iframe = document.getElementById('geosearch');
+        iframe.src = "https://batchgeo.com/map/?i=92512a62caf2080a8d4ec0591adc6324&q="+search;
+      });
+    </script>
+    $$HEADTAGS$$
+    <ac:TemplateOverrideArea id="HeadTagsAddonArea"></ac:TemplateOverrideArea>
+    <link rel="stylesheet" href="/shared/themes/Dymatize2015/Templates/locator.css" type="text/css">
+  </head>
+<body class="OneColumn">
+
+    <!-- Page custom styles -->
+    <style type="text/css">
+      @media screen and (max-width: 767px) and (min-width: 0)
+        .cd-dropdown, .cd-select {
+          display: block;
+          margin-left: -75px!important;
+          margin-top: -10px!important;
+          background-color: #cf0a2c!important;
+        }
+    </style>
+
+    <!-- Facebook -->
+    <!--<div id="fb-root"></div>-->
+    <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <!--end Facebook-->
+    <div class="Layout">
+    
+    <div class="wrapper"> 
+
+      <!-- container starts -->
+      <div class="main-container"> 
+
+        <!-- Header Starts -->
+        <header class="inner-header">
+
+
+          <div class="paddw"> <a href="/" id="logo"><img src="/Shared/Themes/Dymatize2015/images/logo5.png" alt=""></a>
+
+            <div class="navin"><a href="/" class="menubtn mobilemenu_btn mobilemenu_btn1"><span></span> <span></span></a>
+              <div id="nav">
+                <ul>
+                  <li><a href="/shop">PRODUCTS</a></li>
+                  <li><a href="/whydymatize">WHY DYMATIZE</a></li>
+                  <li><a href="/athletes">ATHLETES</a></li>
+                  <li><a href="/fitlife">FIT LIFE</a></li>
+                  <li><a href="/retailers">RETAILERS</a></li>
+                  <li><a href="/store/blog">BLOG</a></li>
+                  <li><a href="/store/shopcart.aspx">MY CART</a></li>
+                </ul>
+              </div></div>
+            <span class="clear"></span> 
+          </div>
+        </header>
+        <!-- Header ends -->  
+      </div>
+      <!-- container ends --> 
+
+    </div>
+    <!-- wrapper ends -->
+      
+
+      <section class="LayoutMiddle main" style="padding-top:90px;">
+        <div class="sharebar">
+          <div class="right">
+            <div class="fb-like" data-href="" data-layout="standard" data-action="like" data-show-faces="false" data-share="true">
+            </div>
+          </div>
+          <div class="logo-blog pad-30 no-pad-tb">
+            <a href="##BLOGURL##"><img src="/Shared/Themes/Dymatize2015/images/dyma-retailer-logo.png" alt=""></a>
+          </div>
+        </div>
+        <section id="wheretobuy" class="center visible-xs visible-sm">
+          <div class="center">
+
+            <h3 style="font-size:35px;">Where to buy dymatize <small>enter your zip code to find a local store</small></h3>
+
+          </div>
+          <div class="form-where center">
+            <input type="text" id="zip" class="whereinp" placeholder="ZIP CODE" max="5">
+            <button id="find_near_store_btn" class="wherebtn" style="    position: relative;
+height: 60px;
+font-size: 14px;
+display: block;
+margin-top: 4px!important;
+border-radius: 3px;
+width: 218px;
+margin-left: auto!important;
+margin-right: auto!important;
+left: 13px;">FIND A STORE</button>
+            <div class="cd-dropdown-wrapper">
+              <div class="cd-dropdown" style="left:2px;"><span style="z-index: 1003;border-radius: 3px;background-color: #cf0a2c;
+border-color: #007095;border-bottom: 2px solid #007095;top: -1px;color:#fff;">OR BUY ONLINE</span>
+                <input type="hidden" name="cd-dropdown" value="-1">
+                <ul class="hidden" style="height: 240px;left:-40px;">
+                  <li style="z-index: 1002; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 60px; left: 0px; width: 300px; margin-left: 0px; transform: none;">
+                    <span class="icon-bb"><a target="_blank" href="http://search.bodybuilding.com/bbsearch/slp/full?context=all&query=dymatize">Bodybuilding.com</a></span></li>
+                  <li style="z-index: 999; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 120px; left: 0px; width: 300px; margin-left: 0px; transform: none;"><span class="icon-gn"><a target="_blank" href="http://www.gnc.com/Shop-By-Brand/family.jsp?categoryId=3703232&categoryId=3703232&fg=Brand&ff=PAD&fv=Brands%2FDymatize&fd=Dymatize&page=1&size=-1&">GNC</a></span></li>
+                  <li style="z-index: 1001; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 180px; left: 0px; width: 300px; margin-left: 0px; transform: none;">
+                    <span class="icon-ms"><a target="_blank" href="https://www.muscleandstrength.com/store/brands/dymatize">Muscle &amp; Strength</a></span></li>
+                  <li style="z-index: 1000; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 240px; left: 0px; width: 300px; margin-left: 0px; transform: none;"><span class="icon-tf"><a target="_blank" href="http://www.tigerfitness.com/Product-Search-s/1582.htm?Search=dymatize&SearchSubmit.x=0&SearchSubmit.y=0&SearchSubmit=Search">Tiger Fitness</a></span></li>
+
+                  <li style="z-index: 999; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 300px; left: 0px; width: 300px; margin-left: 0px; transform: none;"><span class="icon-vi"><a target="_blank" href="http://www.vitaminshoppe.com/search?search=dymatize&typeahead=yes">Vitamin Shoppe</a></span></li>
+
+                  <li style="z-index: 999; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 360px; left: 0px; width: 300px; margin-left: 0px; transform: none;"><span class="icon-go"><a target="_blank" href="https://www.google.com/#q=buy+dymatize+online">Google.com</a></span></li>
+                </ul></div>
+
+            </div>
+          </div>
+        </section>
+        <section id="wheretobuy" class="center hidden-xs hidden-sm">
+          <div class="center">
+
+            <h3>Where to buy dymatize <small>enter your zip code to find a local store</small></h3>
+
+          </div>
+          <div class="form-where center">
+            <input type="text" id="zipz" class="whereinp" placeholder="ZIP CODE" max="5">
+            <button id="find_near_store_btnn" class="wherebtn" style="height:60px;font-size:14px;">FIND A STORE</button>
+            <div class="cd-dropdown-wrapper">
+              <div class="cd-dropdown"><span style="z-index: 1003;border-radius: 3px;background-color: #00aafe;
+border-color: #007095;border-bottom: 2px solid #007095;top: -1px;color:#fff;">OR BUY ONLINE</span>
+                <input type="hidden" name="cd-dropdown" value="-1">
+                <ul class="hidden" style="height: 240px;">
+                  <li style="z-index: 1002; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 60px; left: 0px; width: 300px; margin-left: 0px; transform: none;">
+                    <span class="icon-bb"><a target="_blank" href="http://www.bodybuilding.com/search/#/?q=dymatize">Bodybuilding.com</a></span></li>
+                  <li style="z-index: 999; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 120px; left: 0px; width: 300px; margin-left: 0px; transform: none;"><span class="icon-gn"><a target="_blank" href="http://www.gnc.com/Shop-By-Brand/family.jsp?categoryId=3703232&categoryId=3703232&fg=Brand&ff=PAD&fv=Brands%2FDymatize&fd=Dymatize&page=1&size=-1&">GNC</a></span></li>
+                  <li style="z-index: 1001; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 180px; left: 0px; width: 300px; margin-left: 0px; transform: none;">
+                    <span class="icon-ms"><a target="_blank" href="https://www.muscleandstrength.com/store/brands/dymatize">Muscle &amp; Strength</a></span></li>
+                  <li style="z-index: 1000; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 240px; left: 0px; width: 300px; margin-left: 0px; transform: none;"><span class="icon-tf"><a target="_blank" href="http://www.tigerfitness.com/Product-Search-s/1582.htm?Search=dymatize&SearchSubmit.x=0&SearchSubmit.y=0&SearchSubmit=Search">Tiger Fitness</a></span></li>
+
+                  <li style="z-index: 999; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 300px; left: 0px; width: 300px; margin-left: 0px; transform: none;"><span class="icon-vi"><a target="_blank" href="http://www.vitaminshoppe.com/search?search=dymatize&typeahead=yes">Vitamin Shoppe</a></span></li>
+
+                  <li style="z-index: 999; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 360px; left: 0px; width: 300px; margin-left: 0px; transform: none;"><span class="icon-go"><a target="_blank" href="https://www.google.com/#q=buy+dymatize+online">Google.com</a></span></li>
+                </ul></div>
+
+            </div>
+          </div>
+          <script>
+            $( document ).ready(function() {
+              $('#find_near_store_btnn').click(function(e){
+                e.preventDefault();
+                var zip = $('#zipz').val();
+                window.location = '/retailers?zip='+zip;
+              })
+              $('#zipz').keyup(function(e){
+                e.preventDefault();
+                if(e.keyCode == 13)
+                {
+                  var zip = $('#zipz').val();
+                  window.location = '/retailers?zip='+zip;;
+                }
+              });
+            })
+          </script>
+        </section>
+        <section class="LayoutContent">
+          <div class="LayoutContentInner">
+
+            $$PAGELAYOUT$$
+
+
+            <div class="full-geo">
+              <iframe id="geosearch">
+              </iframe>
+            </div>
+          </div>
+          <div style="clear:both"></div>
+        </section>
+      </section>
+      <footer class="LayoutBottom">
+        $$FOOTER$$
+      </footer>
+    </div>
+  </body>
+</html>

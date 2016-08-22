@@ -1,0 +1,332 @@
+<ac:templateoverridearea id="HeaderAddonArea">
+  <div class="">
+    <ac:widgetarea id="HomePageHeaderWidgets"></ac:widgetarea>
+  </div>
+</ac:templateoverridearea>
+<ac:templateoverridearea id="HeadTagsAddonArea"></ac:templateoverridearea>
+<ac:pagelayout id="DefaultPage" pagetitle="Dymatize">
+  <div class="main">
+    <section id="mobile-home-first" class="visible-xs visible-sm" style="margin-top:0px;">
+      <div id="one-mobile-banner" class="mobile-full">
+        <a href="/shop">
+          <img width="100%" src="/Shared/Themes/DymatizeTEST/images/mobile-home-first.jpg">
+        </a>
+        <section id="wheretobuy" class="center visible-xs visible-sm">
+          <div class="center">
+
+            <h3 style="font-size:35px;">Where to buy dymatize <small>enter your zip code to find a local store</small></h3>
+
+          </div>
+          <div class="form-where center">
+            <input type="text" id="zip" class="whereinp" placeholder="ZIP CODE" max="5">
+            <button id="find_near_store_btn" class="wherebtn" style="    position: relative;
+height: 60px;
+font-size: 14px;
+display: block;
+margin-top: 4px!important;
+border-radius: 3px;
+width: 218px;
+margin-left: auto!important;
+margin-right: auto!important;
+left: 13px;">FIND A STORE</button>
+            <div class="cd-dropdown-wrapper">
+              <div class="cd-dropdown" style="left:2px;"><span style="z-index: 1003;border-radius: 3px;background-color: #00aafe;
+border-color: #007095;border-bottom: 2px solid #007095;top: -1px;color:#fff;">OR BUY ONLINE</span>
+                <input type="hidden" name="cd-dropdown" value="-1">
+                <ul class="hidden" style="height: 240px;left:-40px;">
+                  <li style="z-index: 1002; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 60px; left: 0px; width: 300px; margin-left: 0px; transform: none;">
+                    <span class="icon-bb"><a target="_blank" href="http://www.bodybuilding.com/search/#/?q=dymatize">Bodybuilding.com</a></span></li>
+                  <li style="z-index: 999; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 120px; left: 0px; width: 300px; margin-left: 0px; transform: none;"><span class="icon-gn"><a target="_blank" href="http://www.gnc.com/Shop-By-Brand/family.jsp?categoryId=3703232&categoryId=3703232&fg=Brand&ff=PAD&fv=Brands%2FDymatize&fd=Dymatize&page=1&size=-1&">GNC</a></span></li>
+                  <li style="z-index: 1001; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 180px; left: 0px; width: 300px; margin-left: 0px; transform: none;">
+                    <span class="icon-ms"><a target="_blank" href="https://www.muscleandstrength.com/store/brands/dymatize">Muscle &amp; Strength</a></span></li>
+                  <li style="z-index: 1000; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 240px; left: 0px; width: 300px; margin-left: 0px; transform: none;"><span class="icon-tf"><a target="_blank" href="http://www.tigerfitness.com/Product-Search-s/1582.htm?Search=dymatize&SearchSubmit.x=0&SearchSubmit.y=0&SearchSubmit=Search">Tiger Fitness</a></span></li>
+
+                  <li style="z-index: 999; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 300px; left: 0px; width: 300px; margin-left: 0px; transform: none;"><span class="icon-vi"><a target="_blank" href="http://www.vitaminshoppe.com/search?search=dymatize&typeahead=yes">Vitamin Shoppe</a></span></li>
+
+                  <li style="z-index: 999; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 360px; left: 0px; width: 300px; margin-left: 0px; transform: none;"><span class="icon-go"><a target="_blank" href="https://www.google.com/#q=buy+dymatize+online">Google.com</a></span></li>
+                </ul></div>
+
+            </div>
+          </div>
+        </section>
+      </div>
+
+
+
+      <div id="three-mobile-banner" class="mobile-full">
+        <a href="/athletes">
+          <img width="100%" src="/Shared/Themes/DymatizeTEST/images/mobile-home-athletes.jpg">
+        </a>
+      </div>
+      <div id="four-mobile-banner" class="mobile-full">
+        <a href="/fitlife">
+          <img width="100%" src="/Shared/Themes/DymatizeTEST/images/mobile-home-fitlife.jpg">
+        </a>
+      </div>
+
+
+    </section>
+    <ac:widgetarea id="Top"><ac:widget id="HTML953" type="HTML"><section id="heads" class=" hidden-xs hidden-sm">
+<div id="buzz" class="buzzword owl-carousel">
+	<div>
+		<h1>IF YOU BELIEVE IN REAL SCIENCE  <br><span style="font-size: 50px;">YOU ARE AN ATHELETE</span><br></h1>
+	</div>
+	<div>
+		<h1><a href="/whydymatize" class="buzz-btn"><i class="fa fa-plus"></i>GET THE INFO</a></h1>
+	</div>
+	<div>
+		<h1><br></h1>
+	</div>
+</div>
+<video id="my_video_1" loop="" src="" class="video-js vjs-default-skin" width="100%" height="auto" autoplay="autoplay" controls="" preload="auto" data-setup="">
+<source src="https://s3-us-west-2.amazonaws.com/dymatizebucket/videos/dyma-short.mp4">
+</source></video>
+<script type="text/javascript">          videojs.autoSetup();
+          videojs('my_video_1').ready(function(){
+            console.log(this.options()); //log all of the default videojs options
+            // Store the video object
+            var myPlayer = this, id = myPlayer.id();
+            // Make up an aspect ratio
+            var aspectRatio = 9/19.2; 
+            function resizeVideoJS(){
+              var width = document.getElementById(id).parentElement.offsetWidth;
+              myPlayer.width(width).height( width * aspectRatio );
+            }
+            // Initialize resizeVideoJS()
+            resizeVideoJS();
+            // Then on resize call resizeVideoJS()
+            window.onresize = resizeVideoJS; 
+          });
+</script>
+</section></ac:widget>
+<ac:widget id="HTML952" type="HTML"><div id="products-line" class="clearfix hidden-xs hidden-sm" "="">
+	<ul class="inline-seven clearfix">
+		<li class="col-lg-2 col-md-4 col-sm-12">
+		<div class="feat-athletes-title" style="text-align:left;">
+			<a href="/shop"><img src="/Shared/Themes/DymatizeTEST/images/amazing_products.png"></a>
+		</div>
+		</li>
+		<li class="col-lg-2 col-md-4 col-sm-6">
+		<a href="/proteins"><img src="/Shared/Themes/DymatizeTEST/images/sm-proteins.jpg">
+		<span class="shopdyma-title">PROTEINS</span></a>
+		</li>
+		<li class="col-lg-2 col-md-4 col-sm-6">
+		<a href="/gainers"><img src="/Shared/Themes/DymatizeTEST/images/sm-gainers.jpg">
+		<span class="shopdyma-title">GAINERS</span></a>
+		</li>
+		<li class="col-lg-2 col-md-4 col-sm-6">
+		<a href="/workoutsupport"> <img src="/Shared/Themes/DymatizeTEST/images/sm-performance.jpg">
+		<span class="shopdyma-title">PRE WORKOUTS & AMINOS
+		</span></a>
+		</li>
+		<li class="col-lg-2 col-md-4 col-sm-6">
+		<a href="/daily-essentials"> <img src="/Shared/Themes/DymatizeTEST/images/sm-daily.jpg">
+		<span class="shopdyma-title">DAILY SUPPORT</span></a>
+		</li>
+		<li class="col-lg-2 col-md-4 col-sm-6 hidden-xs hidden-sm">
+		<a href="/gear"> <img src="/Shared/Themes/DymatizeTEST/images/sm-gear.jpg">
+		<span class="shopdyma-title">GEAR</span></a>
+		</li>
+	</ul>
+</div></ac:widget>
+<ac:widget id="SLIDESHOW957" type="Slideshow" slidewidth="100%" pause="6000" responsive="True" displaynumeric="false">
+<ul>
+<li id='slide_10'>
+<a href='http://www.bodybuilding.com/fun/supplement-awards.html' class='predefined_slide_item' target='_blank'>
+<img alt='Supplement Awards 2016' title='Supplement Awards 2016' src='/images/dymatize-supplement-awards-2016.jpg'>
+</a>
+</li>
+<li id='slide_9'>
+<a href='http://www.bodybuilding.com/fun/transformation-challenge.html' class='predefined_slide_item' target='_blank'>
+<img alt='$250K Transformation Challenge' title='$250K Transformation Challenge' src='/images/BANNER_CHALLENGE_DYMA.jpg'>
+</a>
+</li>
+<li id='slide_8'>
+<a href='https://www.dymatize.com/store/proteins/elite-whey' class='predefined_slide_item' target=''>
+<img alt='Elite 100% Whey Protein' title='Elite 100% Whey Protein' src='/images/dyma-elite-banner.png'>
+</a>
+</li>
+<li id='slide_6'>
+<a href='http://www.bodybuilding.com/fun/dymatize-transformed-12-weeks-to-your-best-self?mcid=vanity' class='predefined_slide_item' target='_blank'>
+<img alt='' title='' src='/images/transformebaner.jpg'>
+</a>
+</li>
+<li id='slide_5'>
+<a href='http://www.bodybuilding.com/store/dymatize/iso-100.html' class='predefined_slide_item' target=''>
+<img alt='' title='' src='/images/iso-banner-bb.jpg'>
+</a>
+</li>
+<li id='Performance Driven Gainers'>
+<a href='/gainers' class='predefined_slide_item' target=''>
+<img alt='' title='' src='/images/gainers.jpg'>
+</a>
+</li>
+<li id='Performance Driven Daily Support'>
+<a href='/daily-essentials' class='predefined_slide_item' target=''>
+<img alt='' title='' src='/images/daily-support.jpg'>
+</a>
+</li>
+<li id='Performane Driven Premium Proteins'>
+<a href='/proteins' class='predefined_slide_item' target=''>
+<img alt='' title='' src='/images/premium-proteis.jpg'>
+</a>
+</li>
+<li id='Performance Driven'>
+<a href='/workoutsupport' class='predefined_slide_item' target=''>
+<img alt='' title='' src='/images/performance-support.jpg'>
+</a>
+</li>
+<li id='slide_7'>
+<a href='http://www.vitaminworld.com/on/demandware.store/Sites-vitaminworld_us-Site/default/Search-Show?q=Dymatize' class='predefined_slide_item' target='_blank'>
+<img alt='Vitamin World' title='Vitamin World' src='/images/dyma-vita.jpg'>
+</a>
+</li>
+</ul>
+</ac:widget>
+<ac:widget id="HTML954" type="HTML"><style>
+.wtb-bg {
+    background: #50748A;
+    background-size: cover;
+}
+</style><section id="wheretobuy" class="center hidden-xs hidden-sm wtb-bg">
+<div class="center">
+	<h3>WHERE TO BUY DYMATIZE <small>Enter your zip code to find a local store</small></h3>
+</div>
+<div class="form-where center">
+	<input type="text" id="zipz" class="whereinp" placeholder="ENTER YOUR ZIP CODE" max="5">
+	<button id="find_near_store_btnn" class="wherebtn" style="height:60px;font-size:14px;background-color: #CF0A2C">FIND STORE</button>
+	<div class="cd-dropdown-wrapper">
+		<div class="cd-dropdown"><span style="z-index: 1003;border-radius: 3px;background-color: #CF0A2C; border-color: #007095;border-bottom: 2px solid #007095;top: -1px;color:#fff;">OR BUY ONLINE</span>
+			<input type="hidden" name="cd-dropdown" value="-1">
+			<ul class="hidden" style="height: 240px;">
+				<li style="z-index: 1002; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 60px; left: 0px; width: 300px; margin-left: 0px; transform: none;">
+				<span class="icon-bb"><a target="_blank" href="http://www.bodybuilding.com/search/#/?q=dymatize">Bodybuilding.com</a></span></li>
+				<li style="z-index: 999; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 120px; left: 0px; width: 300px; margin-left: 0px; transform: none;"><span class="icon-gn"><a target="_blank" href="http://www.gnc.com/Shop-By-Brand/family.jsp?categoryId=3703232&categoryId=3703232&fg=Brand&ff=PAD&fv=Brands%2FDymatize&fd=Dymatize&page=1&size=-1&">GNC</a></span></li>
+				<li style="z-index: 1001; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 180px; left: 0px; width: 300px; margin-left: 0px; transform: none;">
+				<span class="icon-ms"><a target="_blank" href="https://www.muscleandstrength.com/store/brands/dymatize">Muscle & Strength</a></span></li>
+				<li style="z-index: 1000; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 240px; left: 0px; width: 300px; margin-left: 0px; transform: none;"><span class="icon-tf"><a target="_blank" href="http://www.tigerfitness.com/Product-Search-s/1582.htm?Search=dymatize&SearchSubmit.x=0&SearchSubmit.y=0&SearchSubmit=Search">Tiger Fitness</a></span></li>
+				<li style="z-index: 999; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 300px; left: 0px; width: 300px; margin-left: 0px; transform: none;"><span class="icon-vi"><a target="_blank" href="http://www.vitaminshoppe.com/search?search=dymatize&typeahead=yes">Vitamin Shoppe</a></span></li>
+				<li style="z-index: 999; transition-duration: 300ms; transition-timing-function: ease; transition-property: all; opacity: 1; top: 360px; left: 0px; width: 300px; margin-left: 0px; transform: none;"><span class="icon-go"><a target="_blank" href="https://www.google.com/#q=buy+dymatize+online">Google.com</a></span></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<script>        $( document ).ready(function() {
+          $('#find_near_store_btnn').click(function(e){
+            e.preventDefault();
+            var zip = $('#zipz').val();
+            window.location = '/retailers?zip='+zip;
+          })
+          $('#zipz').keyup(function(e){
+            e.preventDefault();
+            if(e.keyCode == 13)
+            {
+              var zip = $('#zipz').val();
+              window.location = '/retailers?zip='+zip;;
+            }
+          });
+        })
+</script>
+</section></ac:widget>
+<ac:widget id="SLIDESHOW958" type="Slideshow" slidewidth="100%" pause="7000" responsive="True" displaynumeric="false">
+      <ul>
+        <li id='Why'>
+          <a href='/whydymatize/proven-performance' class='predefined_slide_item' target=''>
+            <img alt='' title='' src='/images/main-banners-whydyma-science2.jpg'>
+          </a>
+        </li>
+        <li id='Why 2'>
+          <a href='/whydymatize/verified-quality' class='predefined_slide_item' target=''>
+            <img alt='' title='' src='/images/main-banners-whydyma-science.jpg'>
+          </a>
+        </li>
+        <li id='Why 3'>
+          <a href='/whydymatize' class='predefined_slide_item' target=''>
+            <img alt='' title='' src='/images/main-banners-whydyma-science3.jpg'>
+          </a>
+        </li>
+      </ul>
+    </ac:widget>
+<ac:widget id="HTML955" type="HTML"><section id="athletes" class="screen hidden-xs hidden-sm" style="overflow:hidden;background:transparent;" data-parallax="scroll" data-position-y="top" data-speed="0.4" data-image-src="/Shared/Themes/DymatizeTEST/images/athletes-mainn.jpg">
+      <a href="/athletes">
+
+        <img src="/Shared/Themes/DymatizeTEST/images/athletes-main.png" alt="">
+      </a></section><section class="screen hidden-xs hidden-sm" style="overflow:hidden;">
+      <a href="/fitlife">
+        <img src="/Shared/Themes/DymatizeTEST/images/fitlife-main2.jpg" style="width:100%">
+      </a>
+      </section></ac:widget>
+<ac:widget id="BLOGROLL956" type="BlogRoll" numbertodisplay="4" blogid="1">
+      <ac:visibilityarea id="dvControl">
+        <section id="blogs" class="right-gray hidden-xs hidden-sm" style="position:relative;">
+
+
+
+          <h2 class="BlogRollBlogName title" style="color:#333!important;">LATEST NEWS & BLOG<small>#dymatizenutrition</small></h2>
+          <div class="rows padtop-50">
+
+            <ac:layoutarea id="BlogPostLayout">
+              $$GROUP$$
+            </ac:layoutarea>
+            <ac:layoutarea id="BlogPostGroup">
+              <article class="BlogPost">
+                $$POST$$
+              </article>
+            </ac:layoutarea>
+            <ac:layoutarea id="BlogPost">
+
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="panel" style="border:none!important">
+                  <div class="full-image-post">
+
+                    <div class="BlogPostImage full-width-img"><a href="##BLOGPOSTURL##">$$TEASERIMAGE$$</a></div>
+                  </div>
+                  <div class="full-post">
+                    <div class="BlogPostCategoryAndTags pad-10 no-pad-tb">
+                      <!--$$POSTCATEGORIESLABEL$$--> $$POSTCATEGORIES$$.
+                      $$POSTTAGS$$
+                    </div>
+                    <div class="BlogPostTeaserDesc pad-10 no-pad-t">
+                      <h1 class="no-marg-t">
+                        <a href="##BLOGPOSTURL##">
+                          $$TEASERTITLE$$
+                        </a>
+
+                      </h1>
+
+
+                      <div class="no-pad-lr">
+                        <div class="fb-like" data-href="##BLOGPOSTFULLURL##" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                      </div>
+                    </div>
+
+
+
+
+
+                  </div>
+                </div>
+              </div>
+
+
+
+            </ac:layoutarea>
+          </div>
+        </section>
+      </ac:visibilityarea>
+
+    </ac:widget>
+<ac:widget id="IMAGELOGO1262" type="ImageLogo" imagealignment="Center" imagepath="/images/main_bg.png">
+
+</ac:widget>
+</ac:widgetarea>
+  $$HOMEPAGECONTENT$$
+  <ac:widgetarea id="Bottom"></ac:widgetarea>
+</div>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55a59160cb63555d" async="async"></script>
+
+
+<script src="http://www.wtp101.com/pixel?id=28063"></script>
+
+</ac:pagelayout>

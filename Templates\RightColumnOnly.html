@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+    <!--[if lt IE 9]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<![endif]-->
+    $$HEADTAGS$$
+    <ac:templateoverridearea id="HeadTagsAddonArea"></ac:templateoverridearea>
+    <link rel="stylesheet" href="/Shared/Themes/Dymatize2015/Templates/RightColumnOnly.css" type="text/css">
+  </head>
+<body class="RightColumn ##PAGEBODYCLASSES##" itemtype="http://schema.org/WebPage" itemscope="">
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55a548503b614603" async="async"></script>
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <!--end Facebook-->
+    <div class="main blog" style="padding-top:90px;">
+      <div class="Layout">
+        <header id="ha-header" class="ha-header ha-header-small absolutei">
+          <div class="ha-header-perspective">
+            <div class="whiteHeader">
+              $$HEADER$$
+            </div>
+          </div>
+        </header>
+        <ac:templateoverridearea id="HeaderAddonArea"></ac:templateoverridearea>
+        <section class="LayoutMiddle rows">
+          <div class="sharebar">
+            <div class="right"><div class="fb-like" data-href="" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div></div>
+            <div class="logo-blog pad-30 no-pad-tb"><img src="/Shared/Themes/Dymatize2015/images/dyma-blog-logo.png" alt=""></div>
+            
+          </div>
+          <section class="LayoutContent col-lg-8 white-bg  pad-30 ">
+            <div class="LayoutContentInner">
+              $$PAGELAYOUT$$
+            </div>
+            <div style="clear:both"></div>
+          </section>
+          <aside class="LayoutRightColumn col-lg-4 right-gray no-pad">
+            <div class="LayoutRightColumnInner">
+              <ac:templateoverridearea id="RightColumn">
+                $$RIGHTCOLUMN$$
+              </ac:templateoverridearea>
+            </div>
+          </aside>
+          
+        </section>
+        <footer class="LayoutBottom">
+          
+          $$FOOTER$$	
+        </footer></div>
+      
+    </div>
+    
+  </body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+    <!--[if lt IE 9]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<![endif]-->
+    <script>
+      $( document ).ready(function() {
+        $('#find_near_store_btn').click(function(e){
+          e.preventDefault();
+          var zip = $('#zip').val();
+          window.location = '/retailers?zip='+zip;
+        })
+        $('#zip').keyup(function(e){
+          e.preventDefault();
+          if(e.keyCode == 13)
+          {
+            var zip = $('#zip').val();
+            window.location = '/retailers?zip='+zip;;
+          }
+        });
+      })
+    </script>
+    $$HEADTAGS$$
+    <ac:TemplateOverrideArea id="HeadTagsAddonArea"></ac:TemplateOverrideArea>
+  </head>
+<body class="OneColumn ##PAGEBODYCLASSES##" itemtype="http://schema.org/WebPage" itemscope="">
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <!--end Facebook-->
+    <div class="Layout transparent">
+
+      <header id="ha-header" class="ha-header ha-header-small absolutei inner-header">
+        <div class="ha-header-perspective">
+          <!--<div class="no-whiteHeader">-->
+            $$HEADER$$
+          <!--</div>-->
+        </div>
+        <script>
+          $(window).scroll(function() {    
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 500) {
+              $(".no-whiteHeader").addClass("whiteHeader");
+            } else {
+              $(".no-whiteHeader").removeClass("whiteHeader");
+            }
+          });
+        </script>
+      </header>
+
+
+
+
+      <ac:templateoverridearea id="HeaderAddonArea"></ac:templateoverridearea>
+      <section class="LayoutMiddle">
+        <section class="LayoutContent">
+          <div class="LayoutContentInner">
+            $$PAGELAYOUT$$
+
+          </div>
+
+        </section>
+      </section>
+      <footer class="LayoutBottom">
+
+
+        $$FOOTER$$
+
+      </footer>
+    </div>
+  </body>
+</html>

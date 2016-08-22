@@ -1,0 +1,73 @@
+<ac:pagelayout id="BlogRollPage" pagelinksstartandendcount="4" commentsprofilepicheight="35" blogimagewidth="800" postteaserimagewidth="800" postimagewidth="800" pagingtype="NumberedPageLinks" pagelinksshown="7" postteaserimageheight="400" postimageheight="400" pagesize="4" commentsprofilepicwidth="35" numberofcommentsperpost="2">
+  <ac:widgetarea id="Top">
+</ac:widgetarea>
+  
+  <h3 class="BlogRollBlogName center trade-font-up"><i class="fa fa-fire"></i> HOT TOPICS</h3>
+  
+  
+  
+  <ac:layoutarea id="BlogPostLayout">
+    <div class="BlogRoll">$$GROUP$$</div>
+  </ac:layoutarea>
+  <ac:layoutarea id="BlogPostGroup">
+    <article class="BlogPost no-pad-tb pad-30">
+      $$POST$$
+    </article>
+    <div class="no-pad"></div>
+  </ac:layoutarea>
+  <ac:layoutarea id="BlogPost">
+    <div class="panel" style="border:none!important">
+      <div class="full-image-post">
+        
+        <div class="BlogPostImage full-width-img"><a href="##BLOGPOSTURL##">$$TEASERIMAGE$$</a></div>
+      </div>
+      <div class="full-post">
+        <div class="BlogPostCategoryAndTags pad-10 no-pad-tb">
+          <!--$$POSTCATEGORIESLABEL$$--> $$POSTCATEGORIES$$.
+          $$POSTTAGS$$
+        </div>
+        <div class="BlogPostTeaserDesc pad-10 no-pad-t">
+          <h1 class="no-marg-t">
+            <a href="##BLOGPOSTURL##">
+              $$TEASERTITLE$$
+            </a>
+            
+          </h1>
+          <p class="BlogPostTeaserDescP">$$TEASERDESCRIPTION$$</p>
+          
+          <div class="no-pad-lr">
+            <div class="fb-like" data-href="##BLOGPOSTFULLURL##" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+          </div>
+        </div>
+        
+        
+        
+        
+        
+      </div>
+    </div>
+    <div style="clear:both;"></div>
+  </ac:layoutarea>
+  
+  
+  
+  
+  
+  
+  <ac:layoutarea id="Paging">
+    <div class="clearfix pad-20 no-pad-lr">
+      <div class="center">
+        <ul class="pagination">
+          <li>$$PREVIOUS$$</li>
+          $$PAGES$$
+          <li>$$NEXT$$</li>
+        </ul>
+      </div>
+    </div>  
+  </ac:layoutarea>   
+  
+  
+  <ac:widgetarea id="Bottom">
+</ac:widgetarea>
+  
+</ac:pagelayout>
